@@ -11,7 +11,6 @@ from stegano import exifHeader as aaa
 import os
 from subprocess import Popen
 
-
 def encode():
 	main.destroy()
 	enc=Tk()
