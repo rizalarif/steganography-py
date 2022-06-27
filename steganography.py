@@ -50,9 +50,6 @@ def encode():
 	radio2=Radiobutton(text='png',value='png',variable=secimg)
 	radio2.place(relx=0.8, rely=0.57)
 			
-
-
-
 	Label1 =Label(text="Enter message")
 	Label1.place(relx=0.6, rely=0.6, height=21, width=104)
 	entrysecmes=Entry()
@@ -83,8 +80,6 @@ def encode():
 			else:
 				messagebox.showwarning("popup","unsuccessful")
 		
-
-
 	def back():
 		enc.destroy()
 		#execfile('image steganography using lsb.py')
@@ -95,7 +90,6 @@ def encode():
 	Buttonback = Button(text="Back",command=back)
 	Buttonback.place(relx=0.7, rely=0.85, height=31, width=94)
 	enc.mainloop()
-
 
 
 def decode():
